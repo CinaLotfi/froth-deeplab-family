@@ -15,6 +15,7 @@ class Config:
 
     outputs_root = project_root / "outputs"
     deeplab_out  = outputs_root / "deeplabv3_resnet101_finetune_out"
+    deeplab_v3plus_out = outputs_root / "deeplabv3plus_resnet152_finetune_out"  # NEW
 
     # --------- dataset / labels ----------
     class_names = ["background", "froth"]
@@ -58,3 +59,4 @@ class Config:
         cls.data_root.mkdir(parents=True, exist_ok=True)
         cls.outputs_root.mkdir(parents=True, exist_ok=True)
         cls.deeplab_out.mkdir(parents=True, exist_ok=True)
+        cls.deeplab_v3plus_out.mkdir(parents=True, exist_ok=True)  # NEW
