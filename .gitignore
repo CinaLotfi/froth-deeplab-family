@@ -1,0 +1,46 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual envs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor stuff
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# ---- Project-specific ----
+
+# Private / large data
+data/
+!data/.gitkeep
+
+# Weights / checkpoints / outputs
+weights/
+outputs/
+
+# Temp / misc
+figures/
+tmp/
+temp/
